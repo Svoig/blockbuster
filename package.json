@@ -1,0 +1,28 @@
+{
+  "name": "blockbuster",
+  "version": "0.1.0",
+  "description": "Guess which movie earned more",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svoig/blockbuster.git"
+  },
+  "author": "svoig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Svoig/blockbuster/issues"
+  },
+  "homepage": "https://github.com/Svoig/blockbuster#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "express": "^4.14.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
