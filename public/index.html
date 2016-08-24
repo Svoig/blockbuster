@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BlockbustR</title>
+    </head>
+    <body ng-app="BlockbustR" ng-controller="moviesController">
+        
+        <h1>Movies:</h1>
+        
+        <ul>
+            <li ng-repeat="movie in moviesList">{{movie.Title}}</li>
+        </ul>
+        
+        <script src="../node_modules/angular/angular.min.js"></script>
+        <script src="./js/app.js"></script>
+        <script src="./js/controllers.js"></script>
+        
+    </body>
+</html>
