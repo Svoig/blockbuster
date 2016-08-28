@@ -1,3 +1,4 @@
 angular.module("BlockbustR", [
-    "BlockbustR.controllers"
+    "BlockbustR.controllers",
+    "BlockbustR.services"
     ]);
